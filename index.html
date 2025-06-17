@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My First Website</title>
+
+  <!-- ====== Minimal, modern CSS ====== -->
+  <style>
+    /* Basic reset */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /* Page body */
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    /* Simple container */
+    .wrapper { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+
+    /* Header hero */
+    header {
+      background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+      color: #fff;
+      text-align: center;
+      padding: 4rem 1rem;
+      border-bottom-left-radius: 1.5rem;
+      border-bottom-right-radius: 1.5rem;
+    }
+    header h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: .5rem; }
+    header p  { font-size: 1.1rem; opacity: .9; }
+
+    /* Navigation (optional) */
+    nav ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      list-style: none;
+      margin-top: 1.5rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+      transition: opacity .2s;
+    }
+    nav a:hover { opacity: .75; }
+
+    /* Sections */
+    section { margin-top: 3rem; }
+    h2      { margin-bottom: 1rem; font-size: 1.75rem; }
+
+    /* Card example */
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: .75rem;
+      box-shadow: 0 4px 14px rgba(0,0,0,.06);
+      margin-bottom: 1.5rem;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #333;
+      color: #eee;
+      margin-top: 3rem;
+      border-top-left-radius: 1.5rem;
+      border-top-right-radius: 1.5rem;
+    }
+    footer a { color: #4facfe; text-decoration: none; }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== Hero / Header ===== -->
+  <header>
+    <h1>Welcome to My Site</h1>
+    <p>A clean, single‑file starter template</p>
+
+    <!-- If you want quick navigation links -->
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Page wrapper -->
+  <div class="wrapper">
+
+    <!-- ===== About Section ===== -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I’m learning web development and this is my very first page hosted on GitHub Pages.</p>
+    </section>
+
+    <!-- ===== Projects Section ===== -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <!-- Example project card -->
+      <div class="card">
+        <h3>Sample Project</h3>
+        <p>A short description of what this project does and why it’s useful.</p>
+      </div>
+
+      <div class="card">
+        <h3>Another Project</h3>
+        <p>Details about another project can go here. Add as many cards as you like!</p>
+      </div>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </section>
+
+  </div><!-- /wrapper -->
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>&copy; 2025 Your Name · Built with ❤️</p>
+  </footer>
+
+</body>
+</html>
