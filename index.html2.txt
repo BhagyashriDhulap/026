@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bhagyashri | Personal Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: #f0f2f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    nav {
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 0;
+      padding: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .project {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border-radius: 8px;
+    }
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm Bhagyashri 👋</h1>
+    <p>Aspiring Digital Strategist & Future Coder 🚀</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m passionate about digital marketing, AI, and learning to build amazing software. I love combining creativity with analytics to build experiences that matter.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Marketing Dashboard</h3>
+      <p>Created a real-time performance dashboard using Google Data Studio and Google Ads data to help brands track KPIs more effectively.</p>
+    </div>
+
+    <div class="project">
+      <h3>AI Prompt Library</h3>
+      <p>Built a collection of advanced ChatGPT prompts to enhance productivity, creativity, and decision-making for marketing teams.</p>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Email: bhagyashri@example.com</p>
+    <p>🔗 <a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bhagyashri | Made with ❤️ and curiosity</p>
+  </footer>
+
+</body>
+</html>
